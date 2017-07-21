@@ -1,0 +1,81 @@
+/*-------------------------------公共样式------------------------------------------*/
+body{
+    font-size: 20px;
+}
+.G_font{
+    width:100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 3rem auto;
+    color: #636262;
+}
+.G_font > b:before{
+    position: absolute;
+    width:50px;
+    height:25px;
+    content: '';
+    margin-left: -60px;
+    border-bottom: 1px solid #464445;
+}
+.G_font > b:after{
+    position: absolute;
+    width:50px;
+    height:25px;
+    content: '';
+    margin-left: 10px;
+    border-bottom: 1px solid #464445;
+}
+.G_font > b{
+    position: relative;
+    font-size: 3rem;
+}
+.G_font > span{
+    display: block;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+/*------------------------------/公共样式-------------------------------------------*/
+.hd_logo{
+    background:url(../images/header.png)no-repeat;
+    background-size: 100%;
+}
+.hd_btn{
+    float: right;
+    margin: 3% auto;
+    background: #fff;
+    border: none;
+
+}
+.hd_btn:focus{
+    background-color: orange;
+
+}
+.hd_btn i{
+    font-size: 3rem;
+    color: #5bc0de;
+
+}
+.hd_xila{
+    position: absolute;
+    width:100%;
+    z-index: 50;
+    background: #cccccc;
+}
+.hd_xila > ul > li{
+    width:100%;
+    overflow: hidden;
+}
+.hd_xila > ul > li >a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.swiper-container {
+    width: 100%;
+    height:20rem;
+}

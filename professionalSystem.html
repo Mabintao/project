@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="ulStyle1" id="content"></ul>
+    </div>
+</body>
+<script src="js/index.js"></script>
+<script>
+    var oUl = $("content");
+    var aImg = new Array("ps_01.jpg","ps_02.jpg","ps_03.jpg","ps_04.jpg","ps_05.jpg","ps_06.jpg","ps_07.jpg","ps_08.jpg");
+    var aText = new Array("新生儿健康护理","中医调理保健","产后妈妈康复","母婴专业营养","产后妈妈塑形美丽","新生儿早期智力开发","立体式院感防御","全天候无缝安保体系");
+    for(var i in aImg){
+        var oli = document.createElement("li");
+        var oimg = document.createElement("img");
+        var ospan = document.createElement("span");
+        oimg.src="images/"+aImg[i];
+        ospan.innerText=aText[i];
+        oUl.appendChild(oli);
+        oli.appendChild(oimg);
+        oli.appendChild(ospan);
+    }
+</script>
+</html>

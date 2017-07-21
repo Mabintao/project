@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<style>
+
+
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-default " style="margin: 0" role="navigation">
+	<div class="container hd_logo">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header ">
+			<button  class="hd_btn " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<i class="iconfont icon-liebiao"></i>
+			</button>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse  hd_xila" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav" id="dh">
+				<li>
+					<a href="##">首页</a>
+				</li>
+				<li>
+					<a href="##">网站建设</a>
+				</li>
+				<li>
+					<a href="##">SEO优化</a>
+				</li>
+				<li>
+					<a href="#">APP开发</a>
+				</li>
+				<li>
+					<a href="#">项目案例</a>
+				</li>
+				<li>
+					<a href="#">联系我们</a>
+				</li>
+			</ul>
+
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+
+<div class="swiper-container">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+		<!-- Slides -->
+		<div class="swiper-slide">Slide 1</div>
+		<div class="swiper-slide">Slide 2</div>
+		<div class="swiper-slide">Slide 3</div>
+		...
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+
+	<!-- If we need scrollbar -->
+	<div class="swiper-scrollbar"></div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+	var mySwiper = new Swiper ('.swiper-container', {
+		// Optional parameters
+		direction: 'horizontal',
+		loop: true,
+
+		// If we need pagination
+		pagination: '.swiper-pagination',
+
+		// Navigation arrows
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+
+		// And if we need scrollbar
+		scrollbar: '.swiper-scrollbar',
+	})
+</script>
+</html>
