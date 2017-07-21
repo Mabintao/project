@@ -1,0 +1,7 @@
+git status   查看项目的状态
+
+git add file：将文件修改提交到本地暂存区，file 为修改文件名。
+
+git commit -m“”:将文件提交 “”中为提交信息
+
+git push 将项目更新到github或服务器
